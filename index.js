@@ -5,7 +5,7 @@ const app = express();
 
 // הגדרת ה-Proxy עם הכתובת החדשה
 app.use('/', createProxyMiddleware({ 
-    target: 'https://www.pornhub.com/video/search?search=%D7%A1%D7%A7%D7%A1', // הכתובת החדשה שביקשת
+    target: 'https://www.netflix.com/ro-en/', // הכתובת החדשה שביקשת
     changeOrigin: true,
     secure: true,
     // כותרות כדי שהאתר יחשוב שהבקשה מגיעה מדפדפן רגיל
